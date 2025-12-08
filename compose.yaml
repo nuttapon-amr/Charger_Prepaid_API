@@ -1,0 +1,7 @@
+﻿services:
+  charger_prepaid_api:
+    image: charger_prepaid_api
+    build:
+      context: .
+      dockerfile: Charger_prepaid_API/Dockerfile
+
